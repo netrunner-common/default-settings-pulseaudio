@@ -1,4 +1,4 @@
-netrunner-settings-pulseaudio (1.0) wily; urgency=medium
+default-settings-pulseaudio (1.0) wily; urgency=medium
 
   * Initial release
 
