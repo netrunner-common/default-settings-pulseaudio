@@ -4,7 +4,7 @@ set -e
 
 # Remove PA fix
 function fix_pa_not_remembering_volume {
-    dpkg-divert --package netrunner-system --remove --rename --divert /etc/pulse/default.pa.orig /etc/pulse/default.pa
+    dpkg-divert --package default-settings-pulseaudio --remove --rename --divert /etc/pulse/default.pa.orig /etc/pulse/default.pa
 }
 
 # summary of how this script can be called:
