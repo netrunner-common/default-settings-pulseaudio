@@ -7,6 +7,7 @@ Standards-Version: 3.7.2
 
 Package: default-settings-pulseaudio
 Architecture: all
+Multi-Arch: foreign
 Replaces: netrunner-system (<< 1.1.4), pulseaudio
 Breaks: netrunner-system (<< 1.1.4)
 Description: Default pulseaudio settings
